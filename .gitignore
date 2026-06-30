@@ -67,3 +67,12 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# SafeFileDB runtime storage (генерується при запуску)
+db_storage/
+
+# IDE
+.vs/
+*.user
+.vscode/
+
