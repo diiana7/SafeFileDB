@@ -26,7 +26,12 @@ git clone https://github.com/diiana7/SafeFileDB.git
 cd SafeFileDB
 cmake -B build
 cmake --build build
+
+# Linux / macOS
 ./build/SafeFileDB
+
+# Windows
+./build/Debug/SafeFileDB.exe
 ```
 
 ## Project Structure
